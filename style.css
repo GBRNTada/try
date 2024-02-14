@@ -1,0 +1,171 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: courier;
+    color: #1B1A17;
+}
+
+.menu {
+    float: none;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    border-bottom: 1px solid #1B1A17;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    /* float: left; */
+    display: inline-block;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #1B1A17;
+    margin-top: 0px;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 1px;
+    color: #1B1A17;
+    width: 100%;
+    line-height: 30px;
+}
+
+a.tbl-biru {
+    background: #1A132F;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-hasil {
+    background: #1A132F;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+a.tbl-biru:hover {
+    background: #F10086;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #F10086;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #1A132F;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.brand-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-brand{
+    width: 42%;
+    margin: 0 auto;
+}
+
+.kartu-brand img {
+    width: 80%;
+    border-radius: 50%;
+}
+.kartu-brand p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 12px;
+    text-align: center;
+    color: #1B1A17;
+
+}
